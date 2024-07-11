@@ -16,7 +16,7 @@ const Hero = () => {
           <br />
           <span className="text-coral-red inline-block mt-3">Nike </span> Shoes
         </h1>
-        <p>Discover stylish Nike arrivals, quality comfort, and innovation for your active life.</p>
+        <p className="font-montserrat text-slate-gray text-lg mt-6 leading-8 mb-14 sm:max-w-sm">Discover stylish Nike arrivals, quality comfort, and innovation for your active life.</p>
         <Button
          label="shop now" 
          iconURL={arrowRight}
