@@ -11,7 +11,7 @@ const SuperQuality = () => {
   
  
          <h2 className='font-palanquin text-4xl capitalize max-sm:text-[72px] font-bold lg:max-w-lg'>
-           Wr Provide You
+           We Provide You
            <span className='text-coral-red '> Super</span>
            <span className='text-coral-red '> Quality</span> Shoes
          </h2>
