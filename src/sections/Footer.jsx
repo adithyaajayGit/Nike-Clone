@@ -32,10 +32,12 @@ const Footer = () => {
         <div className="flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap">
               {footerLinks.map((section)=>(
                 <div key={section}>
-                    <h4 className="text-white">{section.title}</h4>
-                    <ul>
+                    <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">{section.title}</h4>
+                    <ul >
                       {section.links.map((link)=>(
-                        <li>
+                        <li className="text-white-400 mt-3 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
+                        key={link.name}
+                        >
                           <a >{link.name}</a>
                         </li>
                       ))}
@@ -43,6 +45,9 @@ const Footer = () => {
                 </div>
               ))}
         </div>
+      </div>
+      <div className="">
+
       </div>
     </footer>
   )
